@@ -1,0 +1,58 @@
+@media (max-width: 767px)
+  .center
+    padding-left: calc(50% - 220px)
+    padding-right: calc(50% - 220px)
+
+  .block
+    flex-direction: column
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -webkit-flex-direction: column
+    -ms-flex-direction: column
+    max-height: none
+
+  .info
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -webkit-flex-direction: column-reverse
+    -ms-flex-direction: column-reverse
+    flex-direction: column-reverse
+    -webkit-box-align: center
+    -webkit-align-items: center
+    -ms-flex-align: center
+    align-items: center
+    margin-top: -17px
+
+    &Header
+      margin-bottom: 0
+      font-size: 26px
+      text-align: center
+
+    &Img
+      margin-top: -34px
+
+    &Photo
+      margin-left: 0
+
+    &Photo img
+      max-width: 272px
+
+  .form
+    margin-top: 30px
+    align-items: center
+
+  .close
+    padding-left: 0
+    margin-right: 0
+    align-self: flex-end
+    -webkit-box-ordinal-group: -1
+    -webkit-order: -1
+    -ms-flex-order: -1
+    order: -1
+    z-index: 1
+
+  .formDoc
+    display: none
+
+  .formLabelMb
+    margin-left: -65px
